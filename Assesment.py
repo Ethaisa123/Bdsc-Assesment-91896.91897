@@ -10,3 +10,15 @@ careers = {"programming":[10, 1, 0, 4 ],"pe": [1, 1, 10, 3],"textiles": [3, 9, 2
 
 print(classes["programming"][0])
 print(careers["programming"][0])
+differences = []
+difference_total = 0
+
+print("for i in: \n")
+for i in range(0,4):
+    
+    print(classes["programming"][i])
+    print(careers["programming"][i])
+    differences.append(abs(classes["programming"][i] - careers["programming"][i]))
+    difference_total = difference_total + abs(classes["programming"][i] - careers["programming"][i])
+print(differences)
+print(difference_total)
