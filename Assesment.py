@@ -13,12 +13,17 @@ print(careers["programming"][0])
 differences = []
 difference_total = 0
 
+
 print("for i in: \n")
+my_class = "programming"
+career = "textiles"
+
 for i in range(0,4):
     
-    print(classes["programming"][i])
-    print(careers["programming"][i])
-    differences.append(abs(classes["programming"][i] - careers["programming"][i]))
-    difference_total = difference_total + abs(classes["programming"][i] - careers["programming"][i])
-print(differences)
-print(difference_total)
+    print(classes[my_class][i])
+    print(careers[career][i])
+    differences.append(abs(classes[my_class][i] - careers[career][i]))
+    difference_total = difference_total + abs(classes[my_class][i] - careers[career][i])
+
+print("differences: " + str(differences))
+print("total: " + str(difference_total))
