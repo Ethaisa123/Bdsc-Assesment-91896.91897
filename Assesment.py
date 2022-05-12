@@ -15,7 +15,7 @@ difference_total = 0
 
 
 print("for i in: \n")
-my_class = "programming"
+my_class = "hisotry"
 career = "textiles"
 
 for i in range(0,4):
