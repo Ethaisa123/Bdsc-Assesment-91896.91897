@@ -18,12 +18,16 @@ print("for i in: \n")
 my_class = "hisotry"
 career = "textiles"
 
+for i in range (0, len(classes)):
+    print(classes[])
+
 for i in range(0,4):
     
-    print(classes[my_class][i])
-    print(careers[career][i])
+    print("class attribute: {}" .format(classes[my_class][i]))
+    print("career attribute: {}".format(careers[career][i]))
     differences.append(abs(classes[my_class][i] - careers[career][i]))
     difference_total = difference_total + abs(classes[my_class][i] - careers[career][i])
 
 print("differences: " + str(differences))
 print("total: " + str(difference_total))
+
