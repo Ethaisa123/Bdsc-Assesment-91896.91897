@@ -1,3 +1,10 @@
+#collect data from datasheets and adds them to dictionarys
+import pandas as pd
+
+df = pd.read_excel('filename.xlsm', sheetname=0) # can also index sheet by name or fetch all sheets
+mylist = df['column name'].tolist()
+
+
 
 #the list is formatted as [class, tech_value, arts_value, health, writing_value]
 classes_list = {"programming": [10, 1, 0, 4 ],"pe": [1, 1, 10, 3],"textiles": [3, 9, 2, 3],"hisotry": [2,1,2,9],"physics":[5,0,1,7]}
@@ -18,7 +25,7 @@ print(type(career_list_temp))
 #chosen_career = input("What is you chosen career")
 diff_var = 100000000
 #print(careers[chosen_career])
-class_num = len(classes_list_temp)
+career_ammount = len(career_list_temp)
 
 
 
@@ -31,7 +38,7 @@ my_class = "textiles"
 
 
 
-for i in range(0,class_num):
+for i in range(0,career_ammount):
     difference_total = 0
     career = career_list_temp[i]
     
