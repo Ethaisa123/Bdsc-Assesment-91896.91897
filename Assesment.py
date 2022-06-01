@@ -1,8 +1,21 @@
-#collect data from datasheets and adds them to dictionarys
-import pandas as pd
-
-df = pd.read_excel('filename.xlsm', sheetname=0) # can also index sheet by name or fetch all sheets
-mylist = df['column name'].tolist()
+# importing module
+from pandas import *
+ 
+# reading CSV file
+data = read_csv("data-careers.csv")
+ 
+# converting column data to list
+month = data['month_number'].tolist()
+fc = data['facecream'].tolist()
+fw = data['facewash'].tolist()
+tp = data['toothpaste'].tolist()
+sh = data['shampoo'].tolist()
+ 
+# printing list data
+print('Facecream:', fc)
+print('Facewash:', fw)
+print('Toothpaste:', tp)
+print('Shampoo:', sh)
 
 
 
@@ -19,11 +32,13 @@ def getList(dict):
 classes_list_temp = getList(classes_list)
 print(type(classes_list_temp))
 
-#
+#what
 career_list_temp = getList(careers)
 print(type(career_list_temp))
+
 #chosen_career = input("What is you chosen career")
 diff_var = 100000000
+
 #print(careers[chosen_career])
 career_ammount = len(career_list_temp)
 
