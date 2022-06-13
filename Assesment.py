@@ -5,18 +5,18 @@ from pandas import *
 data = read_csv("data-careers.csv")
  
 # converting column data to list
-month = data['month_number'].tolist()
-fc = data['facecream'].tolist()
-fw = data['facewash'].tolist()
-tp = data['toothpaste'].tolist()
-sh = data['shampoo'].tolist()
+name = data['class name'].tolist()
+data_1 = data['commerce'].tolist()
+data_2 = data['writing'].tolist()
+data_3 = data['stem'].tolist()
+data_4 = data['arts'].tolist()
  
 # printing list data
-print('Facecream:', fc)
-print('Facewash:', fw)
-print('Toothpaste:', tp)
-print('Shampoo:', sh)
-
+name_list = ('class name', name)
+print('Facewash', data_1)
+print('Toothpaste', data_2)
+print('Shampoo', data_3)
+print('arts', data_4)
 
 
 #the list is formatted as [class, tech_value, arts_value, health, writing_value]
