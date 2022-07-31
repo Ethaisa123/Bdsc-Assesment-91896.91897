@@ -1,32 +1,28 @@
-class name,description,commerce,writing,stem,arts,credits,
-Business Admin,,9,5,4,2,180,
-Business Supply,,8,7,3,1,180,
-E-commerce,,6,5,2,0,180,
-Economics,,8,3,2,0,180,
-Finance,,7,5,3,1,180,
-Outdoor leadership,,6,6,2,1,180,
-Management,,7,7,4,1,180,
-Marketing,,8,6,3,0,180,
-Disability Studies,,0,7,3,9,80,
-Education,,1,8,4,7,80,
-Health Education,,1,7,3,5,80,
-Sport Studies,,0,6,5,5,80,
-Youth Work,,1,7,3,0,80,
-Dance Studies,,1,2,2,9,150,
-Design,,0,1,2,8,150,
-Fine Arts,,2,1,2,7,150,
-Music,,1,2,1,1,150,
-biomed,,1,7,8,2,260,
-Civil Engineering,,2,6,7,2,260,
-Computer Systems Engineering,,2,7,9,1,260,
-Mechatronics,,2,6,8,1,260,
-Software Engineering,,1,6,8,1,260,
-Biological Sciences,,0,6,9,1,165,
-Chemistry,,2,5,8,1,165,
-Computer Science,,0,6,8,2,165,
-Ecology,,1,7,9,0,165,
-Food tech,,1,5,8,1,165,
-Geography,,1,6,9,1,165,
-Mathematics,,2,5,9,0,165,
-Physics,,2,6,8,2,165,
-Science,,1,3,7,0,165,
+class name,description,commerce,writing,stem,arts,type
+Business,"You'll learn how to plan and review administration systems, manage payroll services and handle meetings and conferences.",9,5,4,2,Social science
+Business Supply,The experience gives students the opportunity to experience decision making in a manufacturing environment along with the consequences of those decisions. ,8,7,3,1,Social science
+E-commerce,"you will delve into range of online business models, an introduction to the tools and techniques used for setup and learn marketing skills that are crucial for your online presence.",6,5,2,0,Social science/commerce
+Economics,"In Economics you learn about supply and demand, perfect and imperfect competition, taxation, international trade, price controls, monetary policy, exchange rates, interest rates, unemployment and inflation amongst many other topics to understand individual markets, the aggregate economy and government policies.",8,3,2,0,Social science
+Finance,"finance, classes will focus on topics such as financial analysis, financial strategy, financial planning, capital markets and investments, capital management and budgeting.",7,5,3,1,Social science/commerce
+Outdoor leadership,"Outdoor Leadership is more than technical skills training. It's a liberal arts discipline that combines those outdoor skills with theory and practice in interpersonal communication, behavioral science, counseling, and being a leader.",6,6,2,1,Arts/leadership
+Management,"In management training, you can learn how to communicate in ways that enable you to influence multiple audiences within your organization.",7,7,4,1,Social science
+Marketing,"Students will form an understanding of the many facets of marketing, some of which are consumer interaction; the pricing and promotion of goods; branding; supply and demand; global marketing; effective communication; and strategy.",8,6,3,0,Social science
+Disability Studies,The course aims to develop skills to examine the construction and maintenance of concepts of disability and disabling identities in popular culture.,0,7,3,9,Education
+Health Education,"Health education encourages students to: manage their own well-being; make health-enhancing choices, and plan, and action goals.",1,7,3,5,Education/sports
+Sport Studies,"In Sports Studies, students identify how various sporting and recreation experiences influence the development of people's physical and social skills.",0,6,5,5,Sports
+Dance Studies,"Dance programs require students to explore the history, theory, and science of their art while developing their physical skills. Students who study dance face a difficult schedule of technique and choreography classes, long evenings in rehearsal, as well as academic classes.",1,2,2,9,Arts
+Design,"Over the course of your study in graphic design school, you will master the basics of design and important techniques. While you build your skill set, you will learn about color theory, typography, and many other elements used together to produce eye-catching artwork.1",0,1,2,8,Arts
+Fine Arts,"Examples include animation, art and technology, ceramics, drawing, interactive digital media, painting, photography, printmaking, sculpture, 3D graphics, 3D modeling, and visual art.",2,1,2,7,Arts
+Music,In general music you may learn music appreciation and rudimentary music notes and timings.,1,2,1,1,Arts
+Civil Engineering,"At its core, civil engineering is a combination of many scientific specialisms, including mechanics, hydraulics, geotechnics (using knowledge of the earth's crust to solve construction problems), materials science and statistical analysis.",2,6,7,2,Engineering
+Mechatronics,"Mechatronics Engineering combines sensors, software, electronics, and mechanical motors to create innovative new devices. ",2,6,8,1,Engineering/Electronics
+Software Engineering,"Studying software engineering provides you with specialist knowledge of a variety of programming languages, software design, information systems, databases and software architecture.",1,6,8,1,Engineering/software
+Biological Sciences,"Subject overview. The scope of Biological Sciences (Biology) is extensive. It covers the structure and function of all living organisms, their relationships and evolutionary origins. It also looks at their interactions, and the physical and chemical worlds around them.",0,6,9,1,science
+Chemistry,"Topics in Chemistry. Chemistry is the study of matter—its characteristics, behavior and structure. Chemists are interested in the way materials act and react in certain situations, so they produce and observe these reactions, both in nature and artificially in a lab setting.",2,5,8,1,science
+Computer Science,"Some core computer science courses you may cover include theory of computation, fundamentals of computer science, compliers and operating systems, information theory, basic programming, systems and architecture, software development and testing.",0,6,8,2,science/software
+Ecology,"Ecology studies the behaviour of plants, animals and organisms within their environments and ecosystems. Degree courses cover areas of biodiversity, conservation, genetics and environmental management, where you learn how to protect and preserve our natural world.",1,7,9,0,science
+Food tech,"Food Technology involves an understanding of food choices and food processing. Students learn how to apply the design process in the development of a technological solution to meet a given brief.",1,8,2,4,hospitality
+Geography,Geography investigates the ways in which features are arranged on the Earth's surface. Students of Geography study the patterns and processes that create these features.,1,6,9,1,science/sociology
+Mathematics,"The main topics they cover include algebra, functions and equations, trigonometry, vectors, statistics and probability, and calculus.",2,5,9,0,Maths
+Physics,Courses in physics reveal the mathematical beauty of the universe at scales ranging from subatomic to cosmological. ,2,6,8,2,Maths/science
+Science,Science is a universal subject that spans the branch of knowledge that examines the structure and behavior of the physical and natural world through observation and experiment. ,1,3,7,0,science

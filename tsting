@@ -14,7 +14,9 @@ def populate(frame):
         label = Label(frame,text=item + "         < >         abcdefghijklmnop",font=(item, 16)).pack()
         Label(frame,text = item).pack(padx = 10)
         listnumber += 1
-
+canvas2 = Canvas(root,height=300,width=400)
+canvas2.place(y = 400)
+canvas2.create_rectangle(0, 0, 1000, 1000, outline="teal", fill="teal")
 def onFrameConfigure(canvas):
     '''Reset the scroll region to encompass the inner frame'''
     canvas.configure(scrollregion=canvas.bbox("all"))
